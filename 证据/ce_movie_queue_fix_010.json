@@ -1,0 +1,26 @@
+﻿{
+    "Date":  "2026-11-09",
+    "Version":  "010",
+    "GameTested":  false,
+    "LuaChecks":  37,
+    "Failures":  0,
+    "CatalogEntriesVerifiedAgainstSourceAndDat":  27,
+    "Files":  [
+                  {
+                      "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ui\\campaign_integration.lua",
+                      "Hash":  "05DDA199EB88316A23CC62D4FF89D196F96BCF6646CF611F89C33A282DAB52EB"
+                  },
+                  {
+                      "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ui\\campaign_movie.lua",
+                      "Hash":  "E6090F08DD61D3046C6F10902E73F93D0095182CF71E967A863EC35D084016D6"
+                  },
+                  {
+                      "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ext_01.cat",
+                      "Hash":  "31D1033098F195DB37D88CB17BBBDE2B606576146C4428E6FD9F4B7AFCF0B0F8"
+                  },
+                  {
+                      "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ext_01.dat",
+                      "Hash":  "E1D6F0F33B77B960A94AE4D1C6F6D26107CEC637AE2E0DF95BD57938AE5DC009"
+                  }
+              ]
+}

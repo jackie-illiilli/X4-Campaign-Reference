@@ -1,0 +1,18 @@
+﻿[
+    {
+        "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ui\\campaign_manifest.lua",
+        "Hash":  "4CC935DC714ECEBBE2BEA236D00C772FBC298222FAB9D6E494A3D5A766688A90"
+    },
+    {
+        "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ui\\campaign_selection.lua",
+        "Hash":  "DE1CD865CA0CD70E9962EB2619C60D6C6DC9CDE6E24ECBEB961AF4EA854D64FB"
+    },
+    {
+        "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ui\\campaign_debriefing.lua",
+        "Hash":  "8AF6989D26BC8C4F9E9D5D2F00CD2C26CFC226A8ACC3EE73A9CFB160C17628D1"
+    },
+    {
+        "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ui\\campaign_integration.lua",
+        "Hash":  "2EC9BE4480A0EBCF89AE5C5855B1EA52F7493A9A35E4BF1AC27A48192065E801"
+    }
+]

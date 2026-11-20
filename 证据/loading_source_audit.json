@@ -1,0 +1,48 @@
+{
+    "Date":  "2026-11-05",
+    "GameVersion":  "900",
+    "RuntimeModified":  false,
+    "Files":  [
+                  {
+                      "Path":  "libraries/gamestarts.xsd",
+                      "Catalog":  "08.cat",
+                      "SHA256":  "C77B49FEDEFDCA8E6A66D663F8A41140D40266E9A93744EEA4B88E2E7E6CC171",
+                      "ReferenceSHA256":  "C77B49FEDEFDCA8E6A66D663F8A41140D40266E9A93744EEA4B88E2E7E6CC171",
+                      "Match":  true
+                  },
+                  {
+                      "Path":  "libraries/md.xsd",
+                      "Catalog":  "08.cat",
+                      "SHA256":  "9959E42A07BB97225B35C16CEDE1043C8A55AD418FAC22EEAF706642A1650756",
+                      "ReferenceSHA256":  "9959E42A07BB97225B35C16CEDE1043C8A55AD418FAC22EEAF706642A1650756",
+                      "Match":  true
+                  },
+                  {
+                      "Path":  "ui/addons/ego_detailmonitor/menu_scenario_debriefing.lua",
+                      "Catalog":  "08.cat",
+                      "SHA256":  "4A1A37FC7D72E08DFC2095B7AC79AA0E2498C43E6C575EB0FF78DBEB2A394239",
+                      "ReferenceSHA256":  "4A1A37FC7D72E08DFC2095B7AC79AA0E2498C43E6C575EB0FF78DBEB2A394239",
+                      "Match":  true
+                  },
+                  {
+                      "Path":  "ui/addons/ego_detailmonitor/menu_scenario_selection.lua",
+                      "Catalog":  "08.cat",
+                      "SHA256":  "AE0A1E8FEB62A0DF1DFC8FE4A759D41A5AB24CA42E4C91663C01157B1B5B8D14",
+                      "ReferenceSHA256":  "AE0A1E8FEB62A0DF1DFC8FE4A759D41A5AB24CA42E4C91663C01157B1B5B8D14",
+                      "Match":  true
+                  },
+                  {
+                      "Path":  "ui/core/lua/loading.lua",
+                      "Catalog":  "08.cat",
+                      "SHA256":  "24F64C2DDE51E17B9775944097D5733692D15D48228700D675B15464C451AE93",
+                      "ReferenceSHA256":  "24F64C2DDE51E17B9775944097D5733692D15D48228700D675B15464C451AE93",
+                      "Match":  true
+                  }
+              ],
+    "Presentation":  {
+                         "Path":  "ui/core/presentations/loading/loading.amw",
+                         "Catalog":  "07.cat",
+                         "Size":  5931899,
+                         "CatalogMD5":  "1e55ec7918176a8ebc143854d5914da4"
+                     }
+}

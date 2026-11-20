@@ -1,0 +1,78 @@
+﻿{
+    "Date":  "2026-11-10",
+    "Version":  "012",
+    "GameTested":  false,
+    "LuaChecks":  43,
+    "Failures":  0,
+    "PauseDepth":  0,
+    "CatalogEntriesVerifiedAgainstSourceAndDat":  27,
+    "ObservedPreviousRun":  {
+                                "concordant_eden_pending_result":  "0",
+                                "concordant_eden_test_01_last_result":  "2",
+                                "concordant_eden_test_01_last_score":  "0",
+                                "concordant_eden_test_01_last_rating":  "0",
+                                "concordant_eden_test_01_last_duration":  "34.2471",
+                                "concordant_eden_test_01_times_finished":  "7",
+                                "concordant_eden_test_01_best_score":  "500",
+                                "concordant_eden_test_01_best_rating":  "5",
+                                "concordant_eden_transition_stage":  "0",
+                                "concordant_eden_test_01_ui_read":  "true",
+                                "concordant_eden_exit_attempt":  "3",
+                                "concordant_eden_exit_stage":  "3",
+                                "concordant_eden_movie_stage":  "mid:completed",
+                                "concordant_eden_test_01_last_kills":  "2",
+                                "concordant_eden_loading_sound":  "0",
+                                "concordant_eden_loading_complete":  "1",
+                                "concordant_eden_loading_audio_stage":  "loading:adopted",
+                                "concordant_eden_battle_phase":  "20",
+                                "concordant_eden_movie_request":  "outro:retry:opening:outro",
+                                "concordant_eden_ui_build":  "0.11",
+                                "concordant_eden_movie_open":  "outro:2:attempt:2:ScenarioDebriefingMenu",
+                                "concordant_eden_movie_show":  "ScenarioDebriefingMenu:mid:accepted",
+                                "concordant_eden_movie_heartbeat":  "16",
+                                "concordant_eden_result_open":  "ack:both-frames"
+                            },
+    "StockDispatcherSource":  "D24A08B8DA9F2C972794B60ACB48AE36F38CB026C991249DAB9F1164272D4DF2",
+    "Files":  [
+                  {
+                      "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ui\\campaign_movie.lua",
+                      "Hash":  "C2069A089E16AF27CB19F7156E807CD9F41069E14C0301F1F179EFF139862A74"
+                  },
+                  {
+                      "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ui\\campaign_integration.lua",
+                      "Hash":  "92398CDC18A13F67DC475FF8135AAE3120A68EF4963B390942A7EBD71E987406"
+                  },
+                  {
+                      "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ui\\campaign_debriefing.lua",
+                      "Hash":  "77F590EEFDE3A77951463CB9749A31E0C6F67F44929C67457960EAF623676374"
+                  },
+                  {
+                      "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\source\\ui\\core\\lua\\loading.lua",
+                      "Hash":  "C155FF31228B8DE750FE86253A23783E7A0B70F238417AA3A0F2F3A0013267B9"
+                  },
+                  {
+                      "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\source\\subst_v900\\ui\\core\\lua\\loading.xpl",
+                      "Hash":  "A4189458E33CB14E299C0218107965ECFBE40CB289330FFF3C9FB5423C88B480"
+                  },
+                  {
+                      "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\tools\\reference_register_menu.lua",
+                      "Hash":  "AC4AAF3158C730C07478543ECFB8CE5EEC58084DB068405B440B8E124AECECDE"
+                  },
+                  {
+                      "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ext_01.cat",
+                      "Hash":  "FCF14749BC1FEC30755926163540AC5AA2930467A52DE32ED2C88AE338173281"
+                  },
+                  {
+                      "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ext_01.dat",
+                      "Hash":  "25B7F3A0995D54ACAA24AA98C66C52C2F586F69FEFE55B36BA7D357299061D4E"
+                  },
+                  {
+                      "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\subst_v900.cat",
+                      "Hash":  "324FB09480D8765E13EB9DA423DFB921B81708978711CE6E41FA2D420C155CD1"
+                  },
+                  {
+                      "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\subst_v900.dat",
+                      "Hash":  "A4189458E33CB14E299C0218107965ECFBE40CB289330FFF3C9FB5423C88B480"
+                  }
+              ]
+}

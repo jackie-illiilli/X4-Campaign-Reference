@@ -1,0 +1,67 @@
+﻿{
+    "Date":  "2026-11-03",
+    "GameVersion":  "900",
+    "Scope":  "Catalog source and schema inspection only; no runtime movie/subtitle modification",
+    "Files":  [
+                  {
+                      "Path":  "cutscenes/credits_movie.xml",
+                      "InstalledSHA256":  "F767601DA14F5E9542DCFBFF772A914A82859C2332649F3EEE7A0260E813324A",
+                      "MatchesExtracted":  null
+                  },
+                  {
+                      "Path":  "cutscenes/cutscenes.xsd",
+                      "InstalledSHA256":  "FF7E1D7E702062AD36868207AC1E8755B0142F0DB1D2041917519971D1F33265",
+                      "MatchesExtracted":  null
+                  },
+                  {
+                      "Path":  "cutscenes/gamestart_1.xml",
+                      "InstalledSHA256":  "8C9991DE48407E372C4EDE69327D97B75F24D739AD0DDBA27A3E129BD9EB372B",
+                      "MatchesExtracted":  null
+                  },
+                  {
+                      "Path":  "libraries/common.xsd",
+                      "InstalledSHA256":  "8EEC878511D06DD2BE88A7054EB54556B29E481BF0FEBA20FE2CF3C6EABD3452",
+                      "MatchesExtracted":  true
+                  },
+                  {
+                      "Path":  "libraries/md.xsd",
+                      "InstalledSHA256":  "9959E42A07BB97225B35C16CEDE1043C8A55AD418FAC22EEAF706642A1650756",
+                      "MatchesExtracted":  true
+                  },
+                  {
+                      "Path":  "ui/addons/ego_gameoptions/gameoptions.lua",
+                      "InstalledSHA256":  "CFF978C89336297CE182AD0B0FB6937C994448396F53359BE70EFA94FC3EE58F",
+                      "MatchesExtracted":  true
+                  },
+                  {
+                      "Path":  "ui/addons/ego_movie/movie.lua",
+                      "InstalledSHA256":  "CE3D0770B2F67995732482CB302649A8A824654377F6794BA977CA8CF8100EBD",
+                      "MatchesExtracted":  true
+                  },
+                  {
+                      "Path":  "ui/core/addon.xsd",
+                      "InstalledSHA256":  "67D318EE4A6892905198519DF094B8ABE357C84751166E3BC4AF2EE19A826CCA",
+                      "MatchesExtracted":  true
+                  },
+                  {
+                      "Path":  "ui/core/lua/overlay.lua",
+                      "InstalledSHA256":  "080A4822DEE6B2F76847F78DFE3108C5868BF071E48DE5EE8D93405846D841BA",
+                      "MatchesExtracted":  true
+                  },
+                  {
+                      "Path":  "ui/core/lua/subchannelbar.lua",
+                      "InstalledSHA256":  "EC68C6BD3F68F42E5E90B9AF8773750D15C1F58C7B37112F423BBA36EA79C674",
+                      "MatchesExtracted":  true
+                  }
+              ],
+    "BaseVideoExamples":  [
+                              {
+                                  "Path":  "cutscenes/credits_movie.xml",
+                                  "Source":  "\u003c?xml version=\"1.0\" encoding=\"utf-8\"?\u003e\r\n\u003ccutscene xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"cutscenes.xsd\"\u003e\r\n\r\n  \u003cdirector key=\"credits_movie\" comment=\"Developer credits\" /\u003e\r\n\r\n  \u003cenvironments\u003e\r\n    \u003cenvironment_implicit name=\"scenezone\" zone=\"tzoneCluster_black2_Sector01_Zone_macro\" /\u003e\r\n    \u003cobject_group name=\"testgroup\"\u003e\r\n      \u003creference object=\"playership\" /\u003e\r\n    \u003c/object_group\u003e\r\n  \u003c/environments\u003e\r\n\r\n  \u003cpresentation\u003e\r\n    \u003cactions\u003e\r\n\r\n      \u003csequence name=\"DynamicSequence\" start=\"0\"\u003e\r\n\r\n        \u003cshot name=\"PlayerShip1\" environment=\"scenezone\" duration=\"auto\"\u003e\r\n          \u003cvideo name=\"videos/credits\"/\u003e\r\n          \u003ccamera_follow reference=\"playership\" orient_to=\"object\" interpolation=\"smooth\"/\u003e\r\n        \u003c/shot\u003e\r\n\r\n      \u003c/sequence\u003e\r\n    \u003c/actions\u003e\r\n  \u003c/presentation\u003e\r\n\r\n\u003c/cutscene\u003e\r\n\r\n"
+                              },
+                              {
+                                  "Path":  "cutscenes/gamestart_1.xml",
+                                  "Source":  "\u003c?xml version=\"1.0\" encoding=\"utf-8\"?\u003e\r\n\u003ccutscene xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\" xsi:noNamespaceSchemaLocation=\"cutscenes.xsd\"\u003e\r\n\r\n  \u003cdirector key=\"gamestart_1\" comment=\"Play a gamestart movie\"\u003e\r\n  \u003c/director\u003e\r\n\r\n  \u003cenvironments\u003e\r\n    \u003cenvironment_implicit name=\"scenezone\" zone=\"tzoneCluster_black2_Sector01_Zone_macro\" /\u003e\r\n    \u003cobject_group name=\"testgroup\"\u003e\r\n      \u003creference object=\"playership\" /\u003e\r\n    \u003c/object_group\u003e\r\n  \u003c/environments\u003e\r\n\r\n  \u003cpresentation\u003e\r\n    \u003cactions\u003e\r\n\r\n      \u003csequence name=\"DynamicSequence\" start=\"0\"\u003e\r\n\r\n        \u003cshot name=\"Movie1\" environment=\"scenezone\" duration=\"auto\"\u003e\r\n          \u003cvideo name=\"videos/gamestart_1\"/\u003e\r\n          \u003ccamera_follow reference=\"playership\" orient_to=\"object\" interpolation=\"smooth\"/\u003e\r\n        \u003c/shot\u003e\r\n\r\n      \u003c/sequence\u003e\r\n    \u003c/actions\u003e\r\n  \u003c/presentation\u003e\r\n\r\n\u003c/cutscene\u003e\r\n\r\n"
+                              }
+                          ]
+}

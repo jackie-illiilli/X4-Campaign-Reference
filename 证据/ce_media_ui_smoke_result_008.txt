@@ -1,0 +1,30 @@
+﻿PASS all five runtime Lua files install
+PASS result frames request without consuming pending
+PASS pending waits for both frames
+PASS forced-close result closes without navigating
+PASS same-host result to selection to result balances Pause
+PASS GameOver selection keeps permitted host
+PASS official module delegates original methods
+PASS repeated page switches do not accumulate TabScroll
+PASS retry waits for intro and uses whitelisted host even at GameOver
+PASS ResultReady schedules native host without automatic exit
+PASS standalone selection forced close does not navigate
+PASS custom exit only routes to stock question and retains return chain
+PASS native Yes keeps stage2 QuitModule close Unpause stage3 order
+PASS native No restores GameOver result host with paired Pause
+PASS official module exit delegates without touching own diagnostic stage
+PASS own desktop quit delegates without marking module exit
+PASS ordinary trace and result frames preserve last exit diagnostic
+PASS main-menu intro owns audio and starts world only after movie
+PASS mid movie runs without Pause or visible controls and acknowledges once
+PASS early playback failure stays visible and explicit skip continues
+PASS forced movie close cancels without recording a completed movie
+PASS movie timeout offers retry and never automatically advances
+PASS in-world movie cannot open through an unrelated GameOver menu
+PASS own loading pins cover beyond configured time and pairs BGM stop
+PASS ordinary loading keeps native proverb and never starts campaign audio
+PASS loading audio failure cannot block loading completion
+PASS loading adopts prestarted sound without layering a duplicate
+PASS failure to stop menu BGM does not suppress loading music start
+PASS fresh world resets result guard and both movie acknowledgements reach result
+CHECKS=29 FAILURES=0 PAUSE_DEPTH=0

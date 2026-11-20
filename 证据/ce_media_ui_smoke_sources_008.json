@@ -1,0 +1,46 @@
+﻿[
+    {
+        "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ui\\campaign_debriefing.lua",
+        "Hash":  "7DC99C3DAAFF1887310F3D31AED8D7DC1D947E93D49DA14A888F96F466A4102C"
+    },
+    {
+        "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ui\\campaign_integration.lua",
+        "Hash":  "ECFF75ABEB6CC98CC1D75BE33E72E5270986E34FBAAC19F00CF2E8AB866FED91"
+    },
+    {
+        "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ui\\campaign_manifest.lua",
+        "Hash":  "4CC935DC714ECEBBE2BEA236D00C772FBC298222FAB9D6E494A3D5A766688A90"
+    },
+    {
+        "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ui\\campaign_movie.lua",
+        "Hash":  "51FBA32A81CC2E44DC357CA08B77CCEA1C5D251E98949943E5B32FFC80F06D9C"
+    },
+    {
+        "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ui\\campaign_selection.lua",
+        "Hash":  "DE1CD865CA0CD70E9962EB2619C60D6C6DC9CDE6E24ECBEB961AF4EA854D64FB"
+    },
+    {
+        "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\source\\ui\\core\\lua\\loading.lua",
+        "Hash":  "3EF2B90FD2FE35EBCF6580927AAA7101EBD9EDCAFC28A0A53FEA711891C3FCA4"
+    },
+    {
+        "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\source\\subst_v900\\ui\\core\\lua\\loading.xpl",
+        "Hash":  "FAB90D8B72F79F421410803EAD0F48A44FD600A9DFD9820E661B39CF236E4F01"
+    },
+    {
+        "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ext_01.cat",
+        "Hash":  "8DACFA4952A970920B10CA87E90CC16E75F6878A657249F17DAF805CE9C3A8C9"
+    },
+    {
+        "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\ext_01.dat",
+        "Hash":  "D8DC79820473856CA21CCF57632D7B41101AC741F98436554B66ADB27B459ED0"
+    },
+    {
+        "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\subst_v900.cat",
+        "Hash":  "B9B470A07B7F37DA3142C804EE374A91DA98B56F1D7C4DC2B7E696786ECF4EF9"
+    },
+    {
+        "Path":  "C:\\Program Files (x86)\\Steam\\steamapps\\common\\X4 Foundations\\extensions\\concordant_eden\\subst_v900.dat",
+        "Hash":  "FAB90D8B72F79F421410803EAD0F48A44FD600A9DFD9820E661B39CF236E4F01"
+    }
+]

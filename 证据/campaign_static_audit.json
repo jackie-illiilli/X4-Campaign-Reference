@@ -1,0 +1,1520 @@
+﻿{
+    "Generated":  "2026-10-29T10:59:25+08:00",
+    "Scope":  "Static XML only; no game runtime validation",
+    "XmlFiles":  123,
+    "ParseErrors":  [
+
+                    ],
+    "SchemaFindings":  [
+
+                       ],
+    "Missions":  [
+                     {
+                         "File":  "gatefall_scenario_01.xml",
+                         "Cues":  34,
+                         "Speak":  62,
+                         "SpeakEnd":  0,
+                         "SpeakEndPages":  "",
+                         "Cutscene":  9,
+                         "CutsceneEnd":  6,
+                         "ActorSequence":  0
+                     },
+                     {
+                         "File":  "gatefall_scenario_02.xml",
+                         "Cues":  146,
+                         "Speak":  95,
+                         "SpeakEnd":  1,
+                         "SpeakEndPages":  "",
+                         "Cutscene":  2,
+                         "CutsceneEnd":  2,
+                         "ActorSequence":  0
+                     },
+                     {
+                         "File":  "gatefall_scenario_03.xml",
+                         "Cues":  193,
+                         "Speak":  141,
+                         "SpeakEnd":  1,
+                         "SpeakEndPages":  "899904",
+                         "Cutscene":  15,
+                         "CutsceneEnd":  14,
+                         "ActorSequence":  0
+                     },
+                     {
+                         "File":  "gatefall_scenario_04.xml",
+                         "Cues":  133,
+                         "Speak":  70,
+                         "SpeakEnd":  0,
+                         "SpeakEndPages":  "",
+                         "Cutscene":  13,
+                         "CutsceneEnd":  0,
+                         "ActorSequence":  0
+                     },
+                     {
+                         "File":  "gatefall_scenario_05_test.xml",
+                         "Cues":  228,
+                         "Speak":  159,
+                         "SpeakEnd":  0,
+                         "SpeakEndPages":  "",
+                         "Cutscene":  23,
+                         "CutsceneEnd":  1,
+                         "ActorSequence":  0
+                     },
+                     {
+                         "File":  "gatefall_scenario_06.xml",
+                         "Cues":  223,
+                         "Speak":  173,
+                         "SpeakEnd":  0,
+                         "SpeakEndPages":  "",
+                         "Cutscene":  15,
+                         "CutsceneEnd":  15,
+                         "ActorSequence":  0
+                     },
+                     {
+                         "File":  "gatefall_scenario_07.xml",
+                         "Cues":  162,
+                         "Speak":  128,
+                         "SpeakEnd":  0,
+                         "SpeakEndPages":  "",
+                         "Cutscene":  11,
+                         "CutsceneEnd":  0,
+                         "ActorSequence":  0
+                     },
+                     {
+                         "File":  "gatefall_scenario_08.xml",
+                         "Cues":  215,
+                         "Speak":  140,
+                         "SpeakEnd":  11,
+                         "SpeakEndPages":  "899998",
+                         "Cutscene":  18,
+                         "CutsceneEnd":  0,
+                         "ActorSequence":  0
+                     }
+                 ],
+    "MissingLocalCutsceneKeys":  [
+
+                                 ],
+    "DuplicateTextEntries":  [
+
+                             ],
+    "LanguageDifferences":  [
+
+                            ],
+    "CutsceneCalls":  [
+                          {
+                              "File":  "gatefall_scenario_01.xml",
+                              "Cue":  "Phase1_Intro",
+                              "Key":  "gatefall_s01_phase1_cutscene",
+                              "Result":  "$Phase1Cutscene",
+                              "Parameters":  "\u003cparam name=\"target_playership\" object=\"player.ship\" /\u003e \u003cparam name=\"target_wingman\" object=\"$Wingman\" /\u003e \u003cparam name=\"target_gate\" object=\"$EntryGate\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_01.xml",
+                              "Cue":  "Phase2_Deployment",
+                              "Key":  "gatefall_s01_phase3_cutscene",
+                              "Result":  "$Phase3Cutscene",
+                              "Parameters":  "\u003cparam name=\"target_playership\" object=\"player.ship\" /\u003e \u003cparam name=\"target_satellite\" object=\"$Satellite\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_01.xml",
+                              "Cue":  "Phase3_StartPatrolReveal",
+                              "Key":  "gatefall_s01_phase3_patrol_cutscene",
+                              "Result":  "$Phase3PatrolCutscene",
+                              "Parameters":  "\u003cparam name=\"target_patrol\" object=\"$PatrolLeader\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_01.xml",
+                              "Cue":  "Phase4_Combat",
+                              "Key":  "gatefall_s01_phase5_cutscene",
+                              "Result":  "$Phase5Cutscene",
+                              "Parameters":  "\u003cparam name=\"target_playership\" object=\"player.ship\" /\u003e \u003cparam name=\"target_wreck\" object=\"$RavagerWreck\" /\u003e \u003cparam name=\"target_signal\" object=\"$AnomalyBeacon\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_01.xml",
+                              "Cue":  "Phase6_ApproachAnomaly",
+                              "Key":  "gatefall_s01_phase6_cutscene",
+                              "Result":  "$Phase6Cutscene",
+                              "Parameters":  "\u003cparam name=\"target_playership\" object=\"player.ship\" /\u003e \u003cparam name=\"target_signal\" object=\"$AnomalyBeacon\" /\u003e \u003cparam name=\"target_xenon_i\" object=\"$XenonFlagship\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_01.xml",
+                              "Cue":  "Phase6_Ended",
+                              "Key":  "gatefall_s01_phase7_cutscene",
+                              "Result":  "$Phase7Cutscene",
+                              "Parameters":  "\u003cparam name=\"target_playership\" object=\"player.ship\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_01.xml",
+                              "Cue":  "Phase7_Subtitles",
+                              "Key":  "gatefall_s01_phase7_highway_cutscene",
+                              "Result":  "$Phase7HighwayCutscene",
+                              "Parameters":  "\u003cparam name=\"target_highway\" object=\"$SavageSpurHighway\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_01.xml",
+                              "Cue":  "Phase7_StartFleetReveal",
+                              "Key":  "gatefall_s01_phase7_fleet_cutscene",
+                              "Result":  "$Phase7FleetCutscene",
+                              "Parameters":  "\u003cparam name=\"target_fleetlead\" object=\"$SavageSpurArmadaLead\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_01.xml",
+                              "Cue":  "Phase10_CleanupFinished",
+                              "Key":  "gatefall_s01_phase10_cutscene",
+                              "Result":  "$Phase10Cutscene",
+                              "Parameters":  "\u003cparam name=\"target_outpost\" object=\"$TerranOutpost\" /\u003e \u003cparam name=\"target_xenon_i\" object=\"$Asgard\" /\u003e \u003cparam name=\"target_asgard\" object=\"$Asgard\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_02.xml",
+                              "Cue":  "Phase4_CommandConversation",
+                              "Key":  "OrbitParameterized",
+                              "Result":  "$Phase4BriefingCutscene",
+                              "Parameters":  "\u003cparam name=\"targetobject\" object=\"$ArgonCommanderActor\" /\u003e \u003cparam name=\"orbitdist\" number=\"2.25\" /\u003e \u003cparam name=\"orbitelevation\" number=\"0.35\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_02.xml",
+                              "Cue":  "Final_CommandConversation",
+                              "Key":  "OrbitParameterized",
+                              "Result":  "$FinalDebriefCutscene",
+                              "Parameters":  "\u003cparam name=\"targetobject\" object=\"$ArgonCommanderActor\" /\u003e \u003cparam name=\"orbitdist\" number=\"2.25\" /\u003e \u003cparam name=\"orbitelevation\" number=\"0.35\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_03.xml",
+                              "Cue":  "Phase1_Intro",
+                              "Key":  "gatefall_s03_phase1_intro_cutscene",
+                              "Result":  "$IntroCutscene",
+                              "Parameters":  "\u003cparam name=\"target_player_ship\" object=\"$RescueCraft\" /\u003e \u003cparam name=\"target_phi_six\" object=\"$PhiSix\" /\u003e \u003cparam name=\"target_gate_a\" object=\"$GateA\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_03.xml",
+                              "Cue":  "Phase1_Final_591",
+                              "Key":  "gatefall_s03_phase1_departure_cutscene",
+                              "Result":  "$DepartureCutscene",
+                              "Parameters":  "\u003cparam name=\"target_carrier\" object=\"$AutumnOfPhi\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_03.xml",
+                              "Cue":  "Phase2_StageValkaConvoyAfterCarrierWarp",
+                              "Key":  "gatefall_s03_phase2_arrival_cutscene",
+                              "Result":  "$Phase2ArrivalCutscene",
+                              "Parameters":  "\u003cparam name=\"target_carrier\" object=\"$AutumnOfPhi\" /\u003e \u003cparam name=\"target_xenon_i\" object=\"$Phase2InitialI\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_03.xml",
+                              "Cue":  "Phase2_InitialEnemiesCleared",
+                              "Key":  "gatefall_s03_phase2_ambush_cutscene",
+                              "Result":  "$Phase2AmbushCutscene",
+                              "Parameters":  "\u003cparam name=\"target_xenon_k\" object=\"$Phase2AmbushKLead\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_03.xml",
+                              "Cue":  "Phase3_Start",
+                              "Key":  "gatefall_s03_phase3_carter_briefing_cutscene",
+                              "Result":  "$Phase3CarterBriefingCutscene",
+                              "Parameters":  "\u003cparam name=\"target_carter\" object=\"$CarterShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_03.xml",
+                              "Cue":  "Phase3_CarterBriefingEnded",
+                              "Key":  "gatefall_s03_phase3_gate_b_cutscene",
+                              "Result":  "$Phase3GateBCutscene",
+                              "Parameters":  "\u003cparam name=\"target_xenon_k\" object=\"$Phase3GateBKLead\" /\u003e \u003cparam name=\"target_gate_b\" object=\"$ZhinGateB\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_03.xml",
+                              "Cue":  "Phase3_GateBSceneEnded",
+                              "Key":  "gatefall_s03_phase3_long_night_cutscene",
+                              "Result":  "$Phase3LongNightCutscene",
+                              "Parameters":  "\u003cparam name=\"target_long_night\" object=\"$LongNight\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_03.xml",
+                              "Cue":  "Phase3_LongNightSceneEnded",
+                              "Key":  "gatefall_s03_phase3_carter_last_stand_cutscene",
+                              "Result":  "$Phase3CarterLastStandCutscene",
+                              "Parameters":  "\u003cparam name=\"target_carter\" object=\"$CarterShip\" /\u003e \u003cparam name=\"target_long_night\" object=\"$LongNight\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_03.xml",
+                              "Cue":  "Phase3_CarterLastStandEnded",
+                              "Key":  "gatefall_s03_phase3_carter_wreck_cutscene",
+                              "Result":  "$Phase3CarterWreckCutscene",
+                              "Parameters":  "\u003cparam name=\"target_wreck\" object=\"$CarterWreck\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_03.xml",
+                              "Cue":  "Phase3_CarterWreckSceneEnded",
+                              "Key":  "gatefall_s03_phase3_command_transfer_cutscene",
+                              "Result":  "$Phase3CommandTransferCutscene",
+                              "Parameters":  "\u003cparam name=\"target_carrier\" object=\"$AutumnOfPhi\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_03.xml",
+                              "Cue":  "Phase3_StageFinaleAfterCarrierWarp",
+                              "Key":  "gatefall_s03_phase3_jorge_sacrifice_cutscene",
+                              "Result":  "$Phase3JorgeSacrificeCutscene",
+                              "Parameters":  "\u003cparam name=\"target_long_night\" object=\"$LongNight\" /\u003e \u003cparam name=\"target_jorge\" object=\"$JorgeShip\" /\u003e \u003cparam name=\"target_carrier\" object=\"$AutumnOfPhi\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_03.xml",
+                              "Cue":  "Phase4_Reveal_812",
+                              "Key":  "gatefall_s03_phase4_long_night_cutscene",
+                              "Result":  "$Phase4LongNightCutscene",
+                              "Parameters":  "\u003cparam name=\"target_long_night\" object=\"$LongNight\" /\u003e \u003cparam name=\"target_gate\" object=\"$NhuutGateA\" /\u003e \u003cparam name=\"target_carrier\" object=\"$AutumnOfPhi\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_03.xml",
+                              "Cue":  "Phase4_LongNightSceneEnded",
+                              "Key":  "gatefall_s03_phase4_kat_decoy_cutscene",
+                              "Result":  "$Phase4KatCutscene",
+                              "Parameters":  "\u003cparam name=\"target_kat\" object=\"$KatShip\" /\u003e \u003cparam name=\"target_carrier\" object=\"$AutumnOfPhi\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_03.xml",
+                              "Cue":  "Phase5_EngineRoomReached",
+                              "Key":  "gatefall_s03_phase5_antimatter_sacrifice_cutscene",
+                              "Result":  "$Phase5SacrificeCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$AntimatterFactory\" /\u003e \u003cparam name=\"target_emile\" object=\"$EmileShip\" /\u003e \u003cparam name=\"target_long_night\" object=\"$LongNight\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_03.xml",
+                              "Cue":  "Phase6_Start",
+                              "Key":  "gatefall_s03_phase6_epilogue_cutscene",
+                              "Result":  "$Phase6EpilogueCutscene",
+                              "Parameters":  "\u003cparam name=\"target_carrier\" object=\"$AutumnOfPhi\" /\u003e \u003cparam name=\"target_player_ship\" object=\"$PhiSix\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_04.xml",
+                              "Cue":  "Phase1_Intro",
+                              "Key":  "gatefall_s04_intro_cutscene",
+                              "Result":  "$Phase1IntroCutscene",
+                              "Parameters":  "\u003cparam name=\"target_xenon_k\" object=\"$InitialK\" /\u003e \u003cparam name=\"target_bluefin\" object=\"$BlueFinLeader\" /\u003e \u003cparam name=\"target_fleet_anchor\" object=\"$CapitalVanguard.{1}\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_04.xml",
+                              "Cue":  "Phase2_Setup",
+                              "Key":  "gatefall_s04_phase2_intro_cutscene",
+                              "Result":  "$Phase2IntroCutscene",
+                              "Parameters":  "\u003cparam name=\"target_radar_ship\" object=\"$RadarShipA\" /\u003e \u003cparam name=\"target_player_ship\" object=\"player.ship\" /\u003e \u003cparam name=\"target_bluefin\" object=\"$BlueFinLeader\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_04.xml",
+                              "Cue":  "Phase3_Setup",
+                              "Key":  "gatefall_s04_phase2_intro_cutscene",
+                              "Result":  "$Phase3IntroCutscene",
+                              "Parameters":  "\u003cparam name=\"target_radar_ship\" object=\"$RadarShipB\" /\u003e \u003cparam name=\"target_player_ship\" object=\"player.ship\" /\u003e \u003cparam name=\"target_bluefin\" object=\"$HakapoLeader\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_04.xml",
+                              "Cue":  "Phase4_ShowM0",
+                              "Key":  "gatefall_s04_phase4_m0_cutscene",
+                              "Result":  "$Phase4M0Cutscene",
+                              "Parameters":  "\u003cparam name=\"target_m0\" object=\"$XenonM0\" /\u003e \u003cparam name=\"target_escort\" object=\"$Phase4M0Guard.{1}\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_04.xml",
+                              "Cue":  "Phase5_Start",
+                              "Key":  "gatefall_s04_phase5_carrier_cutscene",
+                              "Result":  "$Phase5CarrierCutscene",
+                              "Parameters":  "\u003cparam name=\"target_carrier\" object=\"$BoronFlagship\" /\u003e \u003cparam name=\"target_support\" object=\"$TerranFlagship\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_04.xml",
+                              "Cue":  "Phase5_ShowPlatform",
+                              "Key":  "gatefall_s04_phase5_station_cutscene",
+                              "Result":  "$Phase5PlatformCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$ForwardBase\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_04.xml",
+                              "Cue":  "Phase5_RevealStrategicTargets",
+                              "Key":  "gatefall_s04_phase5_station_cutscene",
+                              "Result":  "$Phase5SolarCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$SolarStationA\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_04.xml",
+                              "Cue":  "Phase5_ShowShipyard",
+                              "Key":  "gatefall_s04_phase5_station_cutscene",
+                              "Result":  "$Phase5ShipyardCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$XenonShipyard\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_04.xml",
+                              "Cue":  "Phase6_Start",
+                              "Key":  "gatefall_s04_phase6_freighter_cutscene",
+                              "Result":  "$Phase6FreighterCutscene",
+                              "Parameters":  "\u003cparam name=\"target_freighter\" object=\"$Phase6SupportFreighters.{1}\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_04.xml",
+                              "Cue":  "Phase8_Start",
+                              "Key":  "gatefall_s04_phase4_m0_cutscene",
+                              "Result":  "$Phase8M0Cutscene",
+                              "Parameters":  "\u003cparam name=\"target_m0\" object=\"$XenonM0\" /\u003e \u003cparam name=\"target_escort\" object=\"$XenonM0\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_04.xml",
+                              "Cue":  "Phase8_M0Destroyed",
+                              "Key":  "gatefall_s04_phase8_m0_wreck_cutscene",
+                              "Result":  "$Phase8WreckCutscene",
+                              "Parameters":  "\u003cparam name=\"target_wreck\" object=\"$Phase8M0Wreck\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_04.xml",
+                              "Cue":  "Phase8_ShowBeacon",
+                              "Key":  "gatefall_s04_phase8_beacon_cutscene",
+                              "Result":  "$Phase8BeaconCutscene",
+                              "Parameters":  "\u003cparam name=\"target_beacon\" object=\"$Phase8XenonBeacon\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_04.xml",
+                              "Cue":  "Phase8_ShowScout",
+                              "Key":  "gatefall_s04_phase8_scout_cutscene",
+                              "Result":  "$Phase8ScoutCutscene",
+                              "Parameters":  "\u003cparam name=\"target_scout\" object=\"$Phase8ScoutF\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase01Intro",
+                              "Key":  "gatefall_s05_phase0_phase1_cutscene",
+                              "Result":  "$Phase01Cutscene",
+                              "Parameters":  "\u003cparam name=\"target_player\" object=\"player.ship\" /\u003e \u003cparam name=\"target_destroyer_first\" object=\"$ReviewFirstDestroyer\" /\u003e \u003cparam name=\"target_destroyer_last\" object=\"$ReviewLastDestroyer\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "SetupPrime",
+                              "Key":  "OrbitParameterized",
+                              "Result":  "$Phase2GateCutscene",
+                              "Parameters":  "\u003cparam name=\"targetobject\" object=\"$PrimeGateA\" /\u003e \u003cparam name=\"orbitdist\" number=\"$PrimeGateA.size * 2\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase2Dialogue582",
+                              "Key":  "gatefall_s05_phase2_parade_cutscene",
+                              "Result":  "$Phase2ParadeCutscene",
+                              "Parameters":  "\u003cparam name=\"target_builder_first\" object=\"$Phase2FirstBuilder\" /\u003e \u003cparam name=\"target_builder_last\" object=\"$Phase2LastBuilder\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase2Dialogue583",
+                              "Key":  "gatefall_s05_phase2_president_cutscene",
+                              "Result":  "$Phase2PresidentCutscene",
+                              "Parameters":  "\u003cparam name=\"target_president\" object=\"$PresidentShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase2Dialogue588",
+                              "Key":  "gatefall_s05_phase2_b_gate_cutscene",
+                              "Result":  "$Phase2BGateCutscene",
+                              "Parameters":  "\u003cparam name=\"target_gate\" object=\"$PrimeGateB\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase2Dialogue590",
+                              "Key":  "gatefall_s05_phase2_comm_hub_cutscene",
+                              "Result":  "$Phase2CommHubCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$CommHub\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase2Dialogue593",
+                              "Key":  "gatefall_s05_phase2_c_gate_cutscene",
+                              "Result":  "$Phase2CGateCutscene",
+                              "Parameters":  "\u003cparam name=\"target_gate\" object=\"$PrimeGateC\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase2Anchor",
+                              "Key":  "gatefall_s05_phase3_beacon_cutscene",
+                              "Result":  "$Phase3BeaconCutscene",
+                              "Parameters":  "\u003cparam name=\"target_beacon\" object=\"$MemorialBeacon\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase2Dialogue543",
+                              "Key":  "gatefall_s05_phase3_m0_cutscene",
+                              "Result":  "$Phase3M0Cutscene",
+                              "Parameters":  "\u003cparam name=\"target_m0\" object=\"$M0Wreck\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase2PrepareFleet",
+                              "Key":  "gatefall_s05_phase3_m0_distant_cutscene",
+                              "Result":  "$Phase3M0DistantCutscene",
+                              "Parameters":  "\u003cparam name=\"target_m0\" object=\"$M0Wreck\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase3Start",
+                              "Key":  "gatefall_s05_phase2_president_cutscene",
+                              "Result":  "$Phase3PresidentIntroCutscene",
+                              "Parameters":  "\u003cparam name=\"target_president\" object=\"$PresidentShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase3SpawnInitialAssault",
+                              "Key":  "gatefall_s05_phase3_assault_f_cutscene",
+                              "Result":  "$Phase3AssaultFCutscene",
+                              "Parameters":  "\u003cparam name=\"target_f\" object=\"$Phase3AssaultFFocus\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase3Dialogue807",
+                              "Key":  "gatefall_s05_phase2_president_cutscene",
+                              "Result":  "$Phase3PresidentReturnCutscene",
+                              "Parameters":  "\u003cparam name=\"target_president\" object=\"$PresidentShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase3Dialogue808",
+                              "Key":  "gatefall_s05_phase2_president_cutscene",
+                              "Result":  "$Phase3EscortCutscene",
+                              "Parameters":  "\u003cparam name=\"target_president\" object=\"$PresidentSacrificeEscort\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase3BuilderReveal",
+                              "Key":  "gatefall_s05_phase3_builder_cutscene",
+                              "Result":  "$Phase3BuilderCutscene",
+                              "Parameters":  "\u003cparam name=\"target_builder\" object=\"$Phase3BuilderFocus\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase3CPUArrival",
+                              "Key":  "gatefall_s05_phase3_c_gate_distant_cutscene",
+                              "Result":  "$Phase3CGateRevealCutscene",
+                              "Parameters":  "\u003cparam name=\"target_gate\" object=\"$PrimeGateC\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase3ShipyardReveal",
+                              "Key":  "OrbitParameterized",
+                              "Result":  "$Phase3ShipyardCutscene",
+                              "Parameters":  "\u003cparam name=\"targetobject\" object=\"$Shipyard\" /\u003e \u003cparam name=\"orbitdist\" number=\"$Shipyard.size * 3\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase3KhaakReveal",
+                              "Key":  "gatefall_s05_phase3_annihilator_cutscene",
+                              "Result":  "$Phase3KhaakCutscene",
+                              "Parameters":  "\u003cparam name=\"target_annihilator\" object=\"$ShipyardAnnihilator\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase7Start",
+                              "Key":  "gatefall_s05_phase7_station_reveal_cutscene",
+                              "Result":  "$Phase7StationCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$BoronShipyard\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase7BStart",
+                              "Key":  "gatefall_s05_phase7_station_reveal_cutscene",
+                              "Result":  "$Phase7StationCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$TeladiShipyard\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase7CStart",
+                              "Key":  "gatefall_s05_phase7_station_reveal_cutscene",
+                              "Result":  "$Phase7StationCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$TrinityShipyard\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase7DStart",
+                              "Key":  "gatefall_s05_phase7_station_reveal_cutscene",
+                              "Result":  "$Phase7StationCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$ZyarthShipyard\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_05_test.xml",
+                              "Cue":  "Phase7EStart",
+                              "Key":  "gatefall_s05_phase7_getsu_fune_cutscene",
+                              "Result":  "$Phase7GetsuCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$TerranDefenceStation\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_06.xml",
+                              "Cue":  "Intro_WarpToXenonStation",
+                              "Key":  "gatefall_s06_intro_xenon_station_cutscene",
+                              "Result":  "$IntroXenonCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$XenonDefenceStation\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_06.xml",
+                              "Cue":  "Intro_XenonStationEnded",
+                              "Key":  "gatefall_s06_intro_getsu_station_cutscene",
+                              "Result":  "$IntroGetsuCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$TerranDefenceStation\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_06.xml",
+                              "Cue":  "Intro_GetsuStationEnded",
+                              "Key":  "gatefall_s06_intro_flashpoint_station_cutscene",
+                              "Result":  "$IntroParCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$ParDefenceStation\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_06.xml",
+                              "Cue":  "Intro_ParStationEnded",
+                              "Key":  "gatefall_s06_intro_player_cutscene",
+                              "Result":  "$IntroPlayerCutscene",
+                              "Parameters":  "\u003cparam name=\"target_player_ship\" object=\"$PlayerShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_06.xml",
+                              "Cue":  "Phase1_SpawnGateAttack",
+                              "Key":  "gatefall_s06_phase1_xenon_pe_cutscene",
+                              "Result":  "$Phase1PECutscene",
+                              "Parameters":  "\u003cparam name=\"target_xenon_pe\" object=\"$Phase1PECinematic\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_06.xml",
+                              "Cue":  "Phase1_SpawnDeltaA",
+                              "Key":  "gatefall_s06_phase1_delta_a_cutscene",
+                              "Result":  "$Phase1DeltaACutscene",
+                              "Parameters":  "\u003cparam name=\"target_bargre\" object=\"$Bargre\" /\u003e \u003cparam name=\"target_hayate\" object=\"$HayateShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_06.xml",
+                              "Cue":  "Phase1_GateEnemiesCleared",
+                              "Key":  "gatefall_s06_phase1_ant_station_cutscene",
+                              "Result":  "$Phase1ANTCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$AntDefenceStation\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_06.xml",
+                              "Cue":  "Phase3_StartWreckCutscene",
+                              "Key":  "gatefall_s06_phase3_syme_wreck_cutscene",
+                              "Result":  "$Phase3WreckCutscene",
+                              "Parameters":  "\u003cparam name=\"target_wreck\" object=\"$ShinWreck\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_06.xml",
+                              "Cue":  "Phase5_StartBeaconCutscene",
+                              "Key":  "gatefall_s06_phase5_beacon_cutscene",
+                              "Result":  "$Phase5BeaconCutscene",
+                              "Parameters":  "\u003cparam name=\"target_beacon\" object=\"$Phase5Beacon\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_06.xml",
+                              "Cue":  "Phase5_SpawnCPUFleet",
+                              "Key":  "gatefall_s06_phase5_cpu_fleet_cutscene",
+                              "Result":  "$Phase5FleetCutscene",
+                              "Parameters":  "\u003cparam name=\"target_beacon\" object=\"$Phase5Beacon\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_06.xml",
+                              "Cue":  "Phase6_StartDisabledFreighterCutscene",
+                              "Key":  "gatefall_s06_phase6_disabled_split_freighter_cutscene",
+                              "Result":  "$Phase6DisabledFreighterCutscene",
+                              "Parameters":  "\u003cparam name=\"target_freighter\" object=\"$DisabledSplitFreighter\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_06.xml",
+                              "Cue":  "Phase7_StartFleetCutscene",
+                              "Key":  "gatefall_s06_phase7_survivor_fleet_cutscene",
+                              "Result":  "$Phase7FleetCutscene",
+                              "Parameters":  "\u003cparam name=\"target_player_ship\" object=\"$PlayerShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_06.xml",
+                              "Cue":  "Phase7_SpawnSidenia",
+                              "Key":  "gatefall_s06_phase7_sidenia_cutscene",
+                              "Result":  "$Phase7SideniaCutscene",
+                              "Parameters":  "\u003cparam name=\"target_sidenia\" object=\"$Sidenia\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_06.xml",
+                              "Cue":  "Phase7_SpawnXenonFleet",
+                              "Key":  "gatefall_s06_phase7_xenon_gate_cutscene",
+                              "Result":  "$Phase7XenonCutscene",
+                              "Parameters":  "\u003cparam name=\"target_xenon_i\" object=\"$Phase7CinematicI\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_06.xml",
+                              "Cue":  "Phase7_SpawnAsgards",
+                              "Key":  "gatefall_s06_phase7_asgard_cutscene",
+                              "Result":  "$Phase7AsgardCutscene",
+                              "Parameters":  "\u003cparam name=\"target_paradigm\" object=\"$Paradigm\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_07.xml",
+                              "Cue":  "Phase1_Start",
+                              "Key":  "gatefall_s07_station_memory_cutscene",
+                              "Result":  "$StationCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$MarsHQ\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_07.xml",
+                              "Cue":  "Phase2_Start",
+                              "Key":  "gatefall_s07_station_memory_cutscene",
+                              "Result":  "$StationCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$EarthStation\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_07.xml",
+                              "Cue":  "Phase3_Start",
+                              "Key":  "gatefall_s07_station_memory_cutscene",
+                              "Result":  "$StationCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$MarsHQ\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_07.xml",
+                              "Cue":  "Phase6_StartCutscene",
+                              "Key":  "gatefall_s07_getsu_memory_cutscene",
+                              "Result":  "$GetsuCutscene",
+                              "Parameters":  "\u003cparam name=\"target_domel\" object=\"$DomelIII\" /\u003e \u003cparam name=\"target_sidenia\" object=\"$Sidenia\" /\u003e \u003cparam name=\"target_xenon_i\" object=\"$CinematicGetsuI\" /\u003e \u003cparam name=\"target_player_ship\" object=\"$PlayerShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_07.xml",
+                              "Cue":  "Phase8_StartPlayerCutscene",
+                              "Key":  "gatefall_s07_phase8_player_cutscene",
+                              "Result":  "$Phase8PlayerCutscene",
+                              "Parameters":  "\u003cparam name=\"target_player_ship\" object=\"$PlayerShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_07.xml",
+                              "Cue":  "Phase8_RevealTerminal",
+                              "Key":  "gatefall_s07_terminal_cutscene",
+                              "Result":  "$Phase8TerminalCutscene",
+                              "Parameters":  "\u003cparam name=\"target_terminal\" object=\"$CinematicXenonTerminal\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_07.xml",
+                              "Cue":  "Phase8_TerminalEscortsCleared",
+                              "Key":  "gatefall_s07_phase8_player_cutscene",
+                              "Result":  "$Phase8PlayerCutscene",
+                              "Parameters":  "\u003cparam name=\"target_player_ship\" object=\"$PlayerShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_07.xml",
+                              "Cue":  "Phase8_DefenseComplete",
+                              "Key":  "gatefall_s07_terminal_cutscene",
+                              "Result":  "$Phase8TerminalCutscene",
+                              "Parameters":  "\u003cparam name=\"target_terminal\" object=\"$XenonTerminal\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_07.xml",
+                              "Cue":  "Phase9_Start",
+                              "Key":  "gatefall_s07_phase9_gate_cutscene",
+                              "Result":  "$Phase9GateCutscene",
+                              "Parameters":  "\u003cparam name=\"target_gate\" object=\"$SavageGetsuGate\" /\u003e \u003cparam name=\"target_cpu\" object=\"$P9CinematicCPUShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_07.xml",
+                              "Cue":  "Phase9_EngineDisabled",
+                              "Key":  "gatefall_s07_phase9_engine_cutscene",
+                              "Result":  "$Phase9EngineCutscene",
+                              "Parameters":  "\u003cparam name=\"target_player_ship\" object=\"$PlayerShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_07.xml",
+                              "Cue":  "Phase10_PlaceInterior",
+                              "Key":  "gatefall_s07_station_memory_cutscene",
+                              "Result":  "$StationCutscene",
+                              "Parameters":  "\u003cparam name=\"target_station\" object=\"$EarthStation\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "Phase1A_StartCamera",
+                              "Key":  "gatefall_s08_object_orbit_cutscene",
+                              "Result":  "$P1Cutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$PlayerShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "P1A_StationShot",
+                              "Key":  "gatefall_s08_object_orbit_cutscene",
+                              "Result":  "$P1Cutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$EnergyACinematic\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "Phase1B_Setup",
+                              "Key":  "gatefall_s08_object_orbit_cutscene",
+                              "Result":  "$P1BCutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$EnergyBCinematic\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "P1B_512",
+                              "Key":  "gatefall_s08_object_distant_cutscene",
+                              "Result":  "$P1BCutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$Sidenia\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "Phase1C_Setup",
+                              "Key":  "gatefall_s08_object_orbit_cutscene",
+                              "Result":  "$P1CCutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$EnergyCCinematic\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "P1C_522",
+                              "Key":  "gatefall_s08_object_distant_cutscene",
+                              "Result":  "$P1CCutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$DomelIII\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "Phase2_Setup",
+                              "Key":  "gatefall_s08_object_distant_cutscene",
+                              "Result":  "$P2Cutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$GateDefenceProtected\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "P2_602",
+                              "Key":  "gatefall_s08_object_distant_cutscene",
+                              "Result":  "$P2Cutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$ShipyardCinematic\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "P2_603",
+                              "Key":  "gatefall_s08_superweapon_orbit_180_cutscene",
+                              "Result":  "$P2Cutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$SuperweaponCinematic\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "Phase2_CreateCombatTargets",
+                              "Key":  "gatefall_s08_object_close_cutscene",
+                              "Result":  "$SalvageCutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$SalvageShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "Phase3_WarpFollowers",
+                              "Key":  "gatefall_s08_object_distant_cutscene",
+                              "Result":  "$P3Cutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$PlayerShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "Phase3_RetreatFollowers",
+                              "Key":  "gatefall_s08_object_distant_cutscene",
+                              "Result":  "$P3DamageCutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$PlayerShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "Phase3_PlatformFalls",
+                              "Key":  "gatefall_s08_object_distant_cutscene",
+                              "Result":  "$PlatformCutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$TacticalPlatform\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "Phase4_BeginCutscene",
+                              "Key":  "gatefall_s08_object_distant_cutscene",
+                              "Result":  "$P4Cutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$PlayerShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "Phase4_GateDestroyed",
+                              "Key":  "gatefall_s08_object_orbit_cutscene",
+                              "Result":  "$P4OrdersCutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$PlayerShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "Phase4_SeparateFleets",
+                              "Key":  "gatefall_s08_object_distant_cutscene",
+                              "Result":  "$RearGuardCutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$PhiSix\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "Phase5_BlockadeDestroyed",
+                              "Key":  "gatefall_s08_object_distant_cutscene",
+                              "Result":  "$CollisionCutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$PlayerShip\" /\u003e"
+                          },
+                          {
+                              "File":  "gatefall_scenario_08.xml",
+                              "Cue":  "Phase6_Setup",
+                              "Key":  "gatefall_s08_object_distant_cutscene",
+                              "Result":  "$FinalCutscene",
+                              "Parameters":  "\u003cparam name=\"target_focus\" object=\"$JumpHub\" /\u003e"
+                          }
+                      ],
+    "Shots":  [
+                  {
+                      "File":  "gatefall_s01_phase1_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "PlayerAndGateWide",
+                      "Duration":  "20000",
+                      "Camera":  "\u003ccamera\u003e\u003cposition\u003e\u003creference object=\"target_playership\" x=\"-260\" y=\"170\" z=\"520\" /\u003e\u003c/position\u003e\u003clookdirection\u003e\u003creference object=\"target_playership\" x=\"0\" y=\"0\" z=\"0\" /\u003e\u003c/lookdirection\u003e\u003c/camera\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s01_phase1_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "PlayerCloseOrbit",
+                      "Duration":  "24000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_playership\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"220\" angle=\"-24\" elevation=\"17\" /\u003e\u003cend distance=\"235\" angle=\"158\" elevation=\"13\" time=\"23500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s01_phase10_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "Aftermath",
+                      "Duration":  "44000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_asgard\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"15000\" angle=\"-24\" elevation=\"16\" /\u003e\u003cend distance=\"13000\" angle=\"18\" elevation=\"12\" time=\"43500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s01_phase3_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "SatelliteDeployment",
+                      "Duration":  "30000",
+                      "Camera":  "\u003ccamera\u003e\u003cposition\u003e\u003creference object=\"target_playership\" x=\"-35\" y=\"48\" z=\"110\" /\u003e\u003c/position\u003e\u003clookdirection\u003e\u003creference object=\"target_playership\" x=\"0\" y=\"6\" z=\"18\" /\u003e\u003c/lookdirection\u003e\u003c/camera\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s01_phase3_patrol_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "PatrolReveal",
+                      "Duration":  "9000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_patrol\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"340\" angle=\"-40\" elevation=\"18\" /\u003e\u003cend distance=\"260\" angle=\"55\" elevation=\"24\" time=\"8500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s01_phase5_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "Aftermath",
+                      "Duration":  "7000",
+                      "Camera":  "\u003ccamera\u003e\u003cposition\u003e\u003creference object=\"target_playership\" x=\"-260\" y=\"170\" z=\"520\" /\u003e\u003c/position\u003e\u003clookdirection\u003e\u003creference object=\"target_playership\" x=\"0\" y=\"0\" z=\"0\" /\u003e\u003c/lookdirection\u003e\u003c/camera\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s01_phase5_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "PlayerSurveyWide",
+                      "Duration":  "13000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_playership\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"2400\" angle=\"-40\" elevation=\"18\" /\u003e\u003cend distance=\"3200\" angle=\"48\" elevation=\"24\" time=\"12000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s01_phase5_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "RavagerWreck",
+                      "Duration":  "33000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_wreck\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"2350\" angle=\"-30\" elevation=\"18\" /\u003e\u003cend distance=\"1650\" angle=\"65\" elevation=\"26\" time=\"32000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s01_phase5_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "AnomalySignal",
+                      "Duration":  "6000",
+                      "Camera":  "\u003ccamera\u003e\u003cposition\u003e\u003creference object=\"target_signal\" x=\"-2800\" y=\"900\" z=\"8600\" /\u003e\u003c/position\u003e\u003clookdirection\u003e\u003creference object=\"target_signal\" x=\"0\" y=\"0\" z=\"0\" /\u003e\u003c/lookdirection\u003e\u003c/camera\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s01_phase5_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "PlayerResolve",
+                      "Duration":  "18000",
+                      "Camera":  "\u003ccamera\u003e\u003cposition\u003e\u003creference object=\"target_playership\" x=\"-240\" y=\"125\" z=\"430\" /\u003e\u003c/position\u003e\u003clookdirection\u003e\u003creference object=\"target_playership\" x=\"0\" y=\"0\" z=\"0\" /\u003e\u003c/lookdirection\u003e\u003c/camera\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s01_phase6_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "FlagshipReveal",
+                      "Duration":  "16000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_xenon_i\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"5400\" angle=\"-34\" elevation=\"17\" /\u003e\u003cend distance=\"3800\" angle=\"48\" elevation=\"23\" time=\"15000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s01_phase6_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "PlayerThreat",
+                      "Duration":  "3000",
+                      "Camera":  "\u003ccamera\u003e\u003cposition\u003e\u003creference object=\"target_playership\" x=\"-260\" y=\"160\" z=\"520\" /\u003e\u003c/position\u003e\u003clookdirection\u003e\u003creference object=\"target_playership\" x=\"0\" y=\"0\" z=\"0\" /\u003e\u003c/lookdirection\u003e\u003c/camera\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s01_phase7_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "SavageSpurArrival",
+                      "Duration":  "60000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_playership\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"360\" angle=\"-18\" elevation=\"12\" /\u003e\u003cend distance=\"340\" angle=\"-10\" elevation=\"14\" time=\"59500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s01_phase7_fleet_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "FleetReveal",
+                      "Duration":  "30000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_fleetlead\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"5200\" angle=\"-18\" elevation=\"16\" /\u003e\u003cend distance=\"4200\" angle=\"8\" elevation=\"18\" time=\"29500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s01_phase7_highway_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "Breakaway",
+                      "Duration":  "14000",
+                      "Camera":  "\u003ccamera\u003e\u003cposition\u003e\u003creference object=\"target_highway\" x=\"-1600\" y=\"620\" z=\"3600\" /\u003e\u003c/position\u003e\u003clookdirection\u003e\u003creference object=\"target_highway\" x=\"0\" y=\"0\" z=\"0\" /\u003e\u003c/lookdirection\u003e\u003c/camera\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s02_phase1_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "TelFreighterUnderAttack",
+                      "Duration":  "4000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_tel_ship\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"1500\" angle=\"-26\" elevation=\"15\" /\u003e\u003cend distance=\"1350\" angle=\"-10\" elevation=\"13\" time=\"3500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s02_phase1_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "MoveToPlayer",
+                      "Duration":  "4000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_player_ship\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"2200\" angle=\"-155\" elevation=\"10\" /\u003e\u003cend distance=\"1050\" angle=\"-28\" elevation=\"14\" time=\"3800\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase1_departure_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "CarrierBriefing",
+                      "Duration":  "18000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_carrier\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"1250\" angle=\"-5\" elevation=\"8\" /\u003e\u003cend distance=\"1450\" angle=\"4\" elevation=\"9\" time=\"17500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase1_departure_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "SquadDeparture",
+                      "Duration":  "3500",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_carrier\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"1450\" angle=\"4\" elevation=\"9\" /\u003e\u003cend distance=\"5200\" angle=\"176\" elevation=\"12\" time=\"3300\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase1_intro_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "GateExitClose",
+                      "Duration":  "8000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_player_ship\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"145\" angle=\"-22\" elevation=\"9\" /\u003e\u003cend distance=\"210\" angle=\"18\" elevation=\"7\" time=\"7600\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase1_intro_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "RevealPhiSix",
+                      "Duration":  "6000",
+                      "Camera":  "\u003ccamera_flyfromto reference=\"target_player_ship\" distance=\"240\" flyto_reference=\"target_phi_six\" flyto_distance=\"1050\" interpolation=\"smooth\" time_firstobject=\"900\" time_fly=\"4200\" cycle=\"none\" orient_to=\"object\" orbit1_yaw_start=\"-18\" orbit1_yaw_end=\"-18\" orbit1_elevation=\"9\" orbit2_yaw_start=\"-28\" orbit2_yaw_end=\"-28\" orbit2_pitch=\"10\" /\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase2_ambush_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "AmbushKClose",
+                      "Duration":  "12000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_xenon_k\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"3300\" angle=\"-20\" elevation=\"6\" /\u003e\u003cend distance=\"2600\" angle=\"20\" elevation=\"11\" time=\"11500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase2_arrival_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "CarrierDistantOrbit",
+                      "Duration":  "10000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_carrier\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"9500\" angle=\"-32\" elevation=\"13\" /\u003e\u003cend distance=\"8500\" angle=\"36\" elevation=\"15\" time=\"9500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase2_arrival_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "XenonCapitalReveal",
+                      "Duration":  "28000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_xenon_i\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"4500\" angle=\"-18\" elevation=\"7\" /\u003e\u003cend distance=\"3200\" angle=\"14\" elevation=\"10\" time=\"27500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase3_carter_briefing_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "CarterVanguardOrbit",
+                      "Duration":  "18000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_carter\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"3200\" angle=\"-30\" elevation=\"11\" /\u003e\u003cend distance=\"2400\" angle=\"24\" elevation=\"8\" time=\"17500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase3_carter_last_stand_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "CarterLastStand",
+                      "Duration":  "10000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_carter\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"2800\" angle=\"-14\" elevation=\"6\" /\u003e\u003cend distance=\"1900\" angle=\"8\" elevation=\"5\" time=\"9500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase3_carter_wreck_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "CarterWreckSurvey",
+                      "Duration":  "14000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_wreck\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"3100\" angle=\"-24\" elevation=\"10\" /\u003e\u003cend distance=\"2500\" angle=\"20\" elevation=\"7\" time=\"13500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase3_command_transfer_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "CarrierCommandTransfer",
+                      "Duration":  "22000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_carrier\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"6400\" angle=\"-28\" elevation=\"10\" /\u003e\u003cend distance=\"4700\" angle=\"24\" elevation=\"8\" time=\"21500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase3_gate_b_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "GateBCapitalWatch",
+                      "Duration":  "10000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_xenon_k\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"5200\" angle=\"-22\" elevation=\"9\" /\u003e\u003cend distance=\"4100\" angle=\"18\" elevation=\"7\" time=\"9500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase3_jorge_sacrifice_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "JorgeChargesLongNight",
+                      "Duration":  "30000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_long_night\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"9000\" angle=\"-16\" elevation=\"8\" /\u003e\u003cend distance=\"6200\" angle=\"10\" elevation=\"6\" time=\"29500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase3_long_night_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "LongNightReveal",
+                      "Duration":  "30000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_long_night\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"19000\" angle=\"-18\" elevation=\"10\" /\u003e\u003cend distance=\"12500\" angle=\"12\" elevation=\"7\" time=\"29500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase4_kat_decoy_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "KatVolunteersAsDecoy",
+                      "Duration":  "22000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_kat\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"2100\" angle=\"180\" elevation=\"3\" /\u003e\u003cend distance=\"2700\" angle=\"162\" elevation=\"7\" time=\"21500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase4_long_night_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "LongNightReturnsThroughNhuutGate",
+                      "Duration":  "24000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_long_night\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"10500\" angle=\"-18\" elevation=\"8\" /\u003e\u003cend distance=\"7600\" angle=\"12\" elevation=\"5\" time=\"23500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase5_antimatter_sacrifice_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "AntimatterFactoryDistantView",
+                      "Duration":  "72000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_station\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"26000\" angle=\"-26\" elevation=\"12\" /\u003e\u003cend distance=\"22000\" angle=\"14\" elevation=\"8\" time=\"71500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s03_phase6_epilogue_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "AutumnOfPhiEpilogue",
+                      "Duration":  "26000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_carrier\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"5200\" angle=\"-20\" elevation=\"7\" /\u003e\u003cend distance=\"4300\" angle=\"16\" elevation=\"5\" time=\"25500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s04_intro_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "XenonKToBluefin",
+                      "Duration":  "8000",
+                      "Camera":  "\u003ccamera_flyfromto reference=\"target_xenon_k\" distance=\"1200\" flyto_reference=\"target_bluefin\" flyto_distance=\"520\" interpolation=\"smooth\" time_firstobject=\"2000\" time_fly=\"3500\" cycle=\"none\" orient_to=\"ecliptic\" orbit1_yaw_start=\"-24\" orbit1_yaw_end=\"-24\" orbit1_elevation=\"9\" orbit2_yaw_start=\"-24\" orbit2_yaw_end=\"-24\" orbit2_pitch=\"9\" /\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s04_intro_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "BluefinToFleetAnchor",
+                      "Duration":  "7000",
+                      "Camera":  "\u003ccamera_flyfromto reference=\"target_bluefin\" distance=\"520\" flyto_reference=\"target_fleet_anchor\" flyto_distance=\"1200\" interpolation=\"smooth\" time_firstobject=\"1500\" time_fly=\"3500\" cycle=\"none\" orient_to=\"ecliptic\" orbit1_yaw_start=\"-24\" orbit1_yaw_end=\"-24\" orbit1_elevation=\"-171\" orbit2_yaw_start=\"-24\" orbit2_yaw_end=\"-24\" orbit2_pitch=\"-171\" /\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s04_phase2_intro_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "RadarToStrikeFleet",
+                      "Duration":  "20000",
+                      "Camera":  "\u003ccamera_flyfromto reference=\"target_radar_ship\" distance=\"450\" flyto_reference=\"target_player_ship\" flyto_distance=\"2500\" interpolation=\"smooth\" time_firstobject=\"3500\" time_fly=\"5000\" cycle=\"none\" orient_to=\"object\" orbit1_yaw_start=\"-22\" orbit1_yaw_end=\"-22\" orbit1_elevation=\"11\" orbit2_yaw_start=\"-22\" orbit2_yaw_end=\"-22\" orbit2_pitch=\"11\" /\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s04_phase4_m0_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "M0AndEscortWide",
+                      "Duration":  "70000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_m0\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"21000\" angle=\"-10\" elevation=\"8\" /\u003e\u003cend distance=\"18500\" angle=\"2\" elevation=\"9\" time=\"68000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s04_phase5_carrier_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "CarrierArrival",
+                      "Duration":  "18000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_carrier\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"11000\" angle=\"36\" elevation=\"7\" /\u003e\u003cend distance=\"11000\" angle=\"54\" elevation=\"7\" time=\"17000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s04_phase5_station_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "StationSurvey",
+                      "Duration":  "46000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_station\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"18000\" angle=\"-18\" elevation=\"7\" /\u003e\u003cend distance=\"15000\" angle=\"-4\" elevation=\"10\" time=\"44000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s04_phase6_freighter_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "DolphinCloseSurvey",
+                      "Duration":  "40000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_freighter\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"950\" angle=\"-8\" elevation=\"6\" /\u003e\u003cend distance=\"850\" angle=\"4\" elevation=\"7\" time=\"38000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s04_phase8_beacon_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "BeaconExtremeClose",
+                      "Duration":  "48000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_beacon\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"90\" angle=\"-5\" elevation=\"4\" /\u003e\u003cend distance=\"75\" angle=\"3\" elevation=\"5\" time=\"46000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s04_phase8_m0_wreck_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "M0WreckSurvey",
+                      "Duration":  "22000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_wreck\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"18500\" angle=\"-10\" elevation=\"8\" /\u003e\u003cend distance=\"16500\" angle=\"0\" elevation=\"9\" time=\"20000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s04_phase8_scout_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "ScoutGateExit",
+                      "Duration":  "5000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_scout\" orient_to=\"object\" interpolation=\"linear\" cycle=\"none\"\u003e\u003cbegin distance=\"420\" angle=\"15\" elevation=\"5\" /\u003e\u003cend distance=\"420\" angle=\"15\" elevation=\"5\" time=\"4000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase0_phase1_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "SupervisorOnline",
+                      "Duration":  "19000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_player\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"260\" angle=\"-30\" elevation=\"12\" /\u003e\u003cend distance=\"180\" angle=\"28\" elevation=\"8\" time=\"18500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase0_phase1_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "DestroyerColumns",
+                      "Duration":  "13000",
+                      "Camera":  "\u003ccamera_flyfromto reference=\"target_destroyer_first\" distance=\"1400\" flyto_reference=\"target_destroyer_last\" flyto_distance=\"1600\" interpolation=\"smooth\" time_firstobject=\"1500\" time_fly=\"10000\" cycle=\"none\" orient_to=\"object\" orbit1_yaw_start=\"-24\" orbit1_yaw_end=\"-24\" orbit1_elevation=\"12\" orbit2_yaw_start=\"-24\" orbit2_yaw_end=\"-24\" orbit2_pitch=\"12\" /\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase0_phase1_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "FinalDestroyerOrbit",
+                      "Duration":  "40000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_destroyer_last\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"1600\" angle=\"-24\" elevation=\"12\" /\u003e\u003cend distance=\"1450\" angle=\"38\" elevation=\"9\" time=\"39500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase2_b_gate_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "BGateOrbit",
+                      "Duration":  "20000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_gate\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"5200\" angle=\"-38\" elevation=\"16\" /\u003e\u003cend distance=\"4200\" angle=\"28\" elevation=\"8\" time=\"19000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase2_c_gate_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "CGateOrbit",
+                      "Duration":  "14000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_gate\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"5000\" angle=\"-34\" elevation=\"15\" /\u003e\u003cend distance=\"3900\" angle=\"24\" elevation=\"7\" time=\"13000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase2_comm_hub_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "CommunicationsHubOrbit",
+                      "Duration":  "26000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_station\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"15000\" angle=\"-32\" elevation=\"14\" /\u003e\u003cend distance=\"10500\" angle=\"34\" elevation=\"7\" time=\"25000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase2_parade_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "SecondFleetBuilders",
+                      "Duration":  "18000",
+                      "Camera":  "\u003ccamera_flyfromto reference=\"target_builder_first\" distance=\"1900\" flyto_reference=\"target_builder_last\" flyto_distance=\"1900\" interpolation=\"smooth\" time_firstobject=\"2000\" time_fly=\"14000\" cycle=\"none\" orient_to=\"object\" orbit1_yaw_start=\"90\" orbit1_yaw_end=\"90\" orbit1_elevation=\"5\" orbit2_yaw_start=\"90\" orbit2_yaw_end=\"90\" orbit2_pitch=\"5\" /\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase2_president_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "PresidentReviewCloseOrbit",
+                      "Duration":  "45000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_president\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"1500\" angle=\"-42\" elevation=\"10\" /\u003e\u003cend distance=\"900\" angle=\"32\" elevation=\"6\" time=\"44000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase3_annihilator_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "AnnihilatorCloseOrbit",
+                      "Duration":  "18000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_annihilator\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"6500\" angle=\"-32\" elevation=\"12\" /\u003e\u003cend distance=\"6500\" angle=\"18\" elevation=\"10\" time=\"17000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase3_assault_f_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "AssaultFMediumClose",
+                      "Duration":  "18000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_f\" orient_to=\"object\" interpolation=\"linear\" cycle=\"none\"\u003e\u003cbegin distance=\"420\" angle=\"-32\" elevation=\"8\" /\u003e\u003cend distance=\"420\" angle=\"-32\" elevation=\"8\" time=\"17000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase3_beacon_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "MemorialBeaconClose",
+                      "Duration":  "22000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_beacon\" orient_to=\"object\" interpolation=\"linear\" cycle=\"none\"\u003e\u003cbegin distance=\"45\" angle=\"-24\" elevation=\"12\" /\u003e\u003cend distance=\"45\" angle=\"-24\" elevation=\"12\" time=\"21000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase3_builder_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "BuilderMediumWide",
+                      "Duration":  "22000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_builder\" orient_to=\"object\" interpolation=\"linear\" cycle=\"none\"\u003e\u003cbegin distance=\"5200\" angle=\"-25\" elevation=\"12\" /\u003e\u003cend distance=\"5200\" angle=\"-25\" elevation=\"12\" time=\"21000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase3_c_gate_distant_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "CGateFleetDistantReveal",
+                      "Duration":  "24000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_gate\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"48000\" angle=\"-22\" elevation=\"12\" /\u003e\u003cend distance=\"40000\" angle=\"-5\" elevation=\"14\" time=\"23000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase3_m0_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "M0MemorialOrbit",
+                      "Duration":  "44000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_m0\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"17000\" angle=\"-14\" elevation=\"8\" /\u003e\u003cend distance=\"15000\" angle=\"2\" elevation=\"10\" time=\"43000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase3_m0_distant_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "M0FleetArrivalWide",
+                      "Duration":  "20000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_m0\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"48000\" angle=\"-18\" elevation=\"12\" /\u003e\u003cend distance=\"45000\" angle=\"-8\" elevation=\"13\" time=\"19000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase4_scout_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "HATScoutCloseStatic",
+                      "Duration":  "18000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_scout\" orient_to=\"object\" interpolation=\"linear\" cycle=\"none\"\u003e\u003cbegin distance=\"180\" angle=\"-28\" elevation=\"8\" /\u003e\u003cend distance=\"180\" angle=\"-28\" elevation=\"8\" time=\"17000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase7_getsu_fune_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "GetsuFuneDefenceClose",
+                      "Duration":  "26000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_station\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"3500\" angle=\"-30\" elevation=\"8\" /\u003e\u003cend distance=\"3500\" angle=\"20\" elevation=\"5\" time=\"25000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s05_phase7_station_reveal_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "Phase7StationWideOrbit",
+                      "Duration":  "65000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_station\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"20000\" angle=\"-55\" elevation=\"15\" /\u003e\u003cend distance=\"20000\" angle=\"55\" elevation=\"10\" time=\"64000\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s06_intro_flashpoint_station_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "FlashpointDefence",
+                      "Duration":  "8000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_station\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"9000\" angle=\"-18\" elevation=\"6\" /\u003e\u003cend distance=\"7000\" angle=\"20\" elevation=\"9\" time=\"7600\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s06_intro_getsu_station_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "GetsuDefence",
+                      "Duration":  "32000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_station\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"10500\" angle=\"-32\" elevation=\"8\" /\u003e\u003cend distance=\"7600\" angle=\"34\" elevation=\"12\" time=\"31500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s06_intro_player_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "DomelIII",
+                      "Duration":  "24000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_player_ship\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"2300\" angle=\"-28\" elevation=\"9\" /\u003e\u003cend distance=\"1650\" angle=\"26\" elevation=\"5\" time=\"23500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s06_intro_xenon_station_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "XenonStation",
+                      "Duration":  "10000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_station\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"9000\" angle=\"-25\" elevation=\"10\" /\u003e\u003cend distance=\"7200\" angle=\"18\" elevation=\"7\" time=\"9500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s06_phase1_ant_station_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "ANTUnderAttack",
+                      "Duration":  "31000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_station\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"11000\" angle=\"-30\" elevation=\"12\" /\u003e\u003cend distance=\"7800\" angle=\"32\" elevation=\"6\" time=\"30500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s06_phase1_delta_a_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "BargreArrival",
+                      "Duration":  "9000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_bargre\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"5200\" angle=\"-15\" elevation=\"5\" /\u003e\u003cend distance=\"4200\" angle=\"14\" elevation=\"8\" time=\"8500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s06_phase1_delta_a_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "HayateReveal",
+                      "Duration":  "19000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_hayate\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"850\" angle=\"-24\" elevation=\"10\" /\u003e\u003cend distance=\"580\" angle=\"20\" elevation=\"7\" time=\"18500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s06_phase1_xenon_pe_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "XenonAdvance",
+                      "Duration":  "7000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_xenon_pe\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"750\" angle=\"-20\" elevation=\"5\" /\u003e\u003cend distance=\"520\" angle=\"22\" elevation=\"11\" time=\"6500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s06_phase3_syme_wreck_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "SineWreck",
+                      "Duration":  "255000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_wreck\" orient_to=\"object\" cycle=\"none\" interpolation=\"smooth\"\u003e\u003cbegin distance=\"3800\" angle=\"-28\" elevation=\"9\" /\u003e\u003cend distance=\"2600\" angle=\"68\" elevation=\"5\" time=\"254500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s06_phase5_beacon_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "XenonJumpBeaconClose",
+                      "Duration":  "14000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_beacon\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"75\" angle=\"-32\" elevation=\"10\" /\u003e\u003cend distance=\"48\" angle=\"24\" elevation=\"6\" time=\"13500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s06_phase5_cpu_fleet_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "CPUFleetDistantReveal",
+                      "Duration":  "44000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_beacon\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"52000\" angle=\"-28\" elevation=\"15\" /\u003e\u003cend distance=\"41000\" angle=\"18\" elevation=\"11\" time=\"43500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s06_phase6_disabled_split_freighter_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "DisabledSplitFreighterReveal",
+                      "Duration":  "15000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_freighter\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"4500\" angle=\"-24\" elevation=\"10\" /\u003e\u003cend distance=\"3000\" angle=\"18\" elevation=\"6\" time=\"14500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s06_phase7_asgard_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "TerranReliefOrbit",
+                      "Duration":  "24000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_paradigm\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"10000\" angle=\"-34\" elevation=\"15\" /\u003e\u003cend distance=\"7000\" angle=\"22\" elevation=\"8\" time=\"23500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s06_phase7_sidenia_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "SideniaCloseOrbit",
+                      "Duration":  "9000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_sidenia\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"5500\" angle=\"-20\" elevation=\"9\" /\u003e\u003cend distance=\"3500\" angle=\"15\" elevation=\"6\" time=\"8500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s06_phase7_survivor_fleet_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "SurvivorFleetOrbit",
+                      "Duration":  "28000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_player_ship\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"10000\" angle=\"-35\" elevation=\"16\" /\u003e\u003cend distance=\"7000\" angle=\"24\" elevation=\"9\" time=\"27500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s06_phase7_xenon_gate_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "XenonGateArrival",
+                      "Duration":  "10000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_xenon_i\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"9000\" angle=\"-30\" elevation=\"13\" /\u003e\u003cend distance=\"6500\" angle=\"16\" elevation=\"8\" time=\"9500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s07_frontier_memory_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "SharkWide",
+                      "Duration":  "5000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_shark\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"12500\" angle=\"-28\" elevation=\"15\" /\u003e\u003cend distance=\"10000\" angle=\"-5\" elevation=\"10\" time=\"4500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s07_frontier_memory_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "KatanaFront",
+                      "Duration":  "12000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_katana\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"430\" angle=\"0\" elevation=\"2\" /\u003e\u003cend distance=\"320\" angle=\"4\" elevation=\"1\" time=\"11500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s07_frontier_memory_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "SharkClose",
+                      "Duration":  "25000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_shark\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"4300\" angle=\"24\" elevation=\"7\" /\u003e\u003cend distance=\"2700\" angle=\"-18\" elevation=\"4\" time=\"24500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s07_getsu_memory_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "DomelFleet",
+                      "Duration":  "24000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_domel\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"8500\" angle=\"-35\" elevation=\"13\" /\u003e\u003cend distance=\"5600\" angle=\"28\" elevation=\"8\" time=\"23500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s07_getsu_memory_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "Sidenia",
+                      "Duration":  "7000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_sidenia\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"6800\" angle=\"-20\" elevation=\"9\" /\u003e\u003cend distance=\"4700\" angle=\"12\" elevation=\"6\" time=\"6500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s07_getsu_memory_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "XenonArrival",
+                      "Duration":  "8000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_xenon_i\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"7900\" angle=\"-26\" elevation=\"12\" /\u003e\u003cend distance=\"5200\" angle=\"18\" elevation=\"7\" time=\"7500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s07_getsu_memory_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "Paradigm",
+                      "Duration":  "28000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_player_ship\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"7600\" angle=\"-22\" elevation=\"10\" /\u003e\u003cend distance=\"4300\" angle=\"30\" elevation=\"5\" time=\"27500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s07_phase4_player_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "ParadigmArrival",
+                      "Duration":  "20000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_player_ship\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"9000\" angle=\"-30\" elevation=\"11\" /\u003e\u003cend distance=\"6200\" angle=\"34\" elevation=\"6\" time=\"19500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s07_phase8_player_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "ParadigmOrbit",
+                      "Duration":  "120000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_player_ship\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"9800\" angle=\"-38\" elevation=\"13\" /\u003e\u003cend distance=\"6100\" angle=\"72\" elevation=\"7\" time=\"119500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s07_phase9_engine_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "CrippledParadigm",
+                      "Duration":  "120000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_player_ship\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"6800\" angle=\"176\" elevation=\"7\" /\u003e\u003cend distance=\"4700\" angle=\"198\" elevation=\"4\" time=\"119500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s07_phase9_gate_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "GateAndCPU",
+                      "Duration":  "40000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_cpu\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"15000\" angle=\"-35\" elevation=\"14\" /\u003e\u003cend distance=\"9000\" angle=\"48\" elevation=\"7\" time=\"39500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s07_station_memory_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "SlowStationOrbit",
+                      "Duration":  "120000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_station\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"9000\" angle=\"-32\" elevation=\"11\" /\u003e\u003cend distance=\"6500\" angle=\"58\" elevation=\"7\" time=\"119500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s07_terminal_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "TerminalOrbit",
+                      "Duration":  "120000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_terminal\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"14500\" angle=\"-42\" elevation=\"16\" /\u003e\u003cend distance=\"8200\" angle=\"66\" elevation=\"8\" time=\"119500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s08_object_close_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "ObjectCloseOrbit",
+                      "Duration":  "120000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_focus\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"3200\" angle=\"-38\" elevation=\"14\" /\u003e\u003cend distance=\"2200\" angle=\"74\" elevation=\"7\" time=\"119500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s08_object_distant_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "DistantOrbit",
+                      "Duration":  "120000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_focus\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"22000\" angle=\"-25\" elevation=\"10\" /\u003e\u003cend distance=\"15000\" angle=\"38\" elevation=\"6\" time=\"119500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s08_object_orbit_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "ObjectOrbit",
+                      "Duration":  "120000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_focus\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"9000\" angle=\"-38\" elevation=\"14\" /\u003e\u003cend distance=\"6200\" angle=\"74\" elevation=\"7\" time=\"119500\" /\u003e\u003c/camera_orbit\u003e"
+                  },
+                  {
+                      "File":  "gatefall_s08_superweapon_orbit_180_cutscene.xml",
+                      "Sequence":  "Main",
+                      "Shot":  "SuperweaponOrbit180",
+                      "Duration":  "120000",
+                      "Camera":  "\u003ccamera_orbit reference=\"target_focus\" orient_to=\"object\" interpolation=\"smooth\" cycle=\"none\"\u003e\u003cbegin distance=\"9000\" angle=\"180\" elevation=\"14\" /\u003e\u003cend distance=\"6200\" angle=\"292\" elevation=\"7\" time=\"119500\" /\u003e\u003c/camera_orbit\u003e"
+                  }
+              ]
+}

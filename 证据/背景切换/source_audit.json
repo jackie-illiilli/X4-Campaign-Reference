@@ -1,0 +1,35 @@
+﻿{
+    "Date":  "2026-11-09",
+    "GameVersion":  "9.00",
+    "GameTested":  false,
+    "Files":  [
+                  {
+                      "File":  "Cluster_30.xml",
+                      "Catalog":  "01.cat",
+                      "Entry":  "assets/environments/cluster/Cluster_30.xml 4095322 1760084439 de4b24bbf2335bea247a6d6ffef2664a",
+                      "MD5":  "de4b24bbf2335bea247a6d6ffef2664a",
+                      "Bytes":  4095322
+                  },
+                  {
+                      "File":  "Cluster_30_macro.xml",
+                      "Catalog":  "01.cat",
+                      "Entry":  "assets/environments/cluster/macros/Cluster_30_macro.xml 305 1408006382 b05ab2244eafa481c5fe713f21329efc",
+                      "MD5":  "b05ab2244eafa481c5fe713f21329efc",
+                      "Bytes":  305
+                  },
+                  {
+                      "File":  "common.xsd",
+                      "Catalog":  "08.cat",
+                      "Entry":  "libraries/common.xsd 1700737 1780314614 de2c08eabd2f3e22d705ed473b7940ce",
+                      "MD5":  "de2c08eabd2f3e22d705ed473b7940ce",
+                      "Bytes":  1700737
+                  },
+                  {
+                      "File":  "menu_mapeditor.lua",
+                      "Catalog":  "08.cat",
+                      "Entry":  "ui/addons/ego_detailmonitor/menu_mapeditor.lua 62887 1767100895 117dd662abbe0268a38a587ef6eece78",
+                      "MD5":  "117dd662abbe0268a38a587ef6eece78",
+                      "Bytes":  62887
+                  }
+              ]
+}

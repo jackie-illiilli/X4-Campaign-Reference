@@ -1,0 +1,18 @@
+﻿PASS all four runtime Lua files install
+PASS result frames request without consuming pending
+PASS pending waits for both frames
+PASS forced-close result closes without navigating
+PASS same-host result to selection to result balances Pause
+PASS GameOver selection keeps permitted host
+PASS official module delegates original methods
+PASS repeated page switches do not accumulate TabScroll
+PASS start requests expected gamestart after source cleanup
+PASS ResultReady schedules native host without automatic exit
+PASS standalone selection forced close does not navigate
+PASS custom exit only routes to stock question and retains return chain
+PASS native Yes keeps stage2 QuitModule close Unpause stage3 order
+PASS native No restores GameOver result host with paired Pause
+PASS official module exit delegates without touching own diagnostic stage
+PASS own desktop quit delegates without marking module exit
+PASS ordinary trace and result frames preserve last exit diagnostic
+CHECKS=17 FAILURES=0 PAUSE_DEPTH=0

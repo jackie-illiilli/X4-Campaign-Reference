@@ -1,0 +1,42 @@
+﻿{
+    "Date":  "2026-10-30",
+    "GameVersion":  "900",
+    "Scope":  "Source comparison only; no DLC-disabled runtime test",
+    "Files":  [
+                  {
+                      "Path":  "ui/addons/ego_detailmonitor/menu_scenario_debriefing.lua",
+                      "InstalledCatalog":  "08.cat",
+                      "MatchesExtracted":  true,
+                      "InstalledSHA256":  "4A1A37FC7D72E08DFC2095B7AC79AA0E2498C43E6C575EB0FF78DBEB2A394239",
+                      "ExtractedSHA256":  "4A1A37FC7D72E08DFC2095B7AC79AA0E2498C43E6C575EB0FF78DBEB2A394239"
+                  },
+                  {
+                      "Path":  "ui/addons/ego_detailmonitor/menu_scenario_selection.lua",
+                      "InstalledCatalog":  "08.cat",
+                      "MatchesExtracted":  true,
+                      "InstalledSHA256":  "AE0A1E8FEB62A0DF1DFC8FE4A759D41A5AB24CA42E4C91663C01157B1B5B8D14",
+                      "ExtractedSHA256":  "AE0A1E8FEB62A0DF1DFC8FE4A759D41A5AB24CA42E4C91663C01157B1B5B8D14"
+                  },
+                  {
+                      "Path":  "ui/addons/ego_detailmonitorhelper/helper.lua",
+                      "InstalledCatalog":  "08.cat",
+                      "MatchesExtracted":  true,
+                      "InstalledSHA256":  "D24A08B8DA9F2C972794B60ACB48AE36F38CB026C991249DAB9F1164272D4DF2",
+                      "ExtractedSHA256":  "D24A08B8DA9F2C972794B60ACB48AE36F38CB026C991249DAB9F1164272D4DF2"
+                  },
+                  {
+                      "Path":  "ui/addons/ego_gameoptions/gameoptions.lua",
+                      "InstalledCatalog":  "08.cat",
+                      "MatchesExtracted":  true,
+                      "InstalledSHA256":  "CFF978C89336297CE182AD0B0FB6937C994448396F53359BE70EFA94FC3EE58F",
+                      "ExtractedSHA256":  "CFF978C89336297CE182AD0B0FB6937C994448396F53359BE70EFA94FC3EE58F"
+                  },
+                  {
+                      "Path":  "ui/core/addon.xsd",
+                      "InstalledCatalog":  "08.cat",
+                      "MatchesExtracted":  true,
+                      "InstalledSHA256":  "67D318EE4A6892905198519DF094B8ABE357C84751166E3BC4AF2EE19A826CCA",
+                      "ExtractedSHA256":  "67D318EE4A6892905198519DF094B8ABE357C84751166E3BC4AF2EE19A826CCA"
+                  }
+              ]
+}

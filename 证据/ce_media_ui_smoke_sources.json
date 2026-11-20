@@ -1,0 +1,26 @@
+[
+    {
+        "Path":  "campaign_debriefing.lua",
+        "SHA256":  "3EDDC59A1EAF12E0AEE999C92C7A766604A6D77E42FC73B4D77091CB76AE5C68"
+    },
+    {
+        "Path":  "campaign_integration.lua",
+        "SHA256":  "BED97FC0D4C45630334CCA560EADF89672907053B2F3C5D2A7A49E39C2651032"
+    },
+    {
+        "Path":  "campaign_manifest.lua",
+        "SHA256":  "4CC935DC714ECEBBE2BEA236D00C772FBC298222FAB9D6E494A3D5A766688A90"
+    },
+    {
+        "Path":  "campaign_movie.lua",
+        "SHA256":  "0903231EF141FD143C42E5DFAA12FEEE3DFB82F802B5EFD7AA06ED4704539B94"
+    },
+    {
+        "Path":  "campaign_selection.lua",
+        "SHA256":  "DE1CD865CA0CD70E9962EB2619C60D6C6DC9CDE6E24ECBEB961AF4EA854D64FB"
+    },
+    {
+        "Path":  "source/subst_v900/ui/core/lua/loading.xpl",
+        "SHA256":  "99C3958E8C590715572ADC75D6FDA239FDEE6259D472CBF56DAE67F3C3B68CE3"
+    }
+]
